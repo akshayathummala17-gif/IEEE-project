@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IEEE TEMS Student Chapter — Technology Skills. Management Mindset.</title>
+  <meta name="description" content="Official website of the IEEE Technology and Engineering Management Society (TEMS) Student Chapter. Bridging engineering excellence with leadership, innovation, and strategic management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Status Bar -->
+  <aside class="top-bar" aria-label="Chapter Status Bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-tag">
+        <span class="status-indicator" aria-hidden="true"></span>
+        <span>IEEE Technology & Engineering Management Society · Student Branch Chapter</span>
+      </div>
+      <div class="top-bar-tag">
+        <span>Academic Year 2026 // Admissions Open</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Site Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="IEEE TEMS Student Chapter Home">
+        <span class="brand-tems">IEEE TEMS</span>
+        <span class="brand-badge">STUDENT</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <div class="nav-link-item"><a href="#about" class="nav-link" id="nav-about">About</a></div>
+        <div class="nav-link-item"><a href="#gain" class="nav-link" id="nav-gain">What You Gain</a></div>
+        <div class="nav-link-item"><a href="#benefits" class="nav-link" id="nav-benefits">Benefits</a></div>
+        <div class="nav-link-item"><a href="#faq" class="nav-link" id="nav-faq">FAQ</a></div>
+        <div class="nav-link-item"><a href="#join" class="nav-link" id="nav-join">Join Us</a></div>
+      </nav>
+
+      <!-- Primary Action -->
+      <div class="nav-actions">
+        <a href="#join" class="nav-btn-join" id="navCtaBtn">Apply Now</a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" id="mobileMenuBtn">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <nav class="mobile-drawer" aria-label="Mobile Navigation" id="mobileNavDrawer">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="#about">About</a></li>
+        <li class="mobile-nav-item"><a href="#gain">What You Gain</a></li>
+        <li class="mobile-nav-item"><a href="#benefits">Student Benefits</a></li>
+        <li class="mobile-nav-item"><a href="#faq">Frequently Asked Questions</a></li>
+        <li class="mobile-nav-item"><a href="#join">Join the Chapter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-grid-guide" aria-hidden="true"></div>
+      
+      <div class="container hero-content">
+        <div class="hero-meta">
+          <span class="hero-meta-badge">[ 00 // INAUGURAL & ACTIVE CHAPTER ]</span>
+          <span>DISCIPLINE: ENGINEERING LEADERSHIP & INNOVATION</span>
+        </div>
+
+        <h1 class="hero-headline" id="hero-heading">
+          Technology Skills.<br>
+          <span class="accent">Management Mindset.</span>
+        </h1>
+
+        <div class="hero-editorial-row">
+          <div>
+            <p class="hero-description">
+              The IEEE Technology and Engineering Management Society (TEMS) Student Chapter empowers future technical leaders by bridging engineering excellence with essential management, leadership, and entrepreneurial capabilities.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#join" class="btn btn-solid-red btn-arrow" id="heroJoinBtn">Join the Chapter</a>
+              <a href="#benefits" class="btn btn-outline-dark" id="heroBenefitsBtn">View Member Benefits</a>
+            </div>
+          </div>
+
+          <div class="hero-stats-panel">
+            <div class="hero-stats-meta">CHAPTER BENCHMARKS // REF. 2026</div>
+            <div class="hero-metric-grid">
+              <div class="metric-item accent-border">
+                <div class="metric-number">100%</div>
+                <div class="metric-label">Industry Mentorship & Capstone Exposure</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-number">3:1</div>
+                <div class="metric-label">Technical to Leadership Skills Integration</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-number">50+</div>
+                <div class="metric-label">Global IEEE Society Chapters Network</div>
+              </div>
+              <div class="metric-item">
+                <div class="metric-number">#014</div>
+                <div class="metric-label">IEEE TEMS Society Global Charter Code</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT IEEE TEMS SECTION -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-layout">
+          <!-- Left Column: Editorial Label & Typographic Statistic -->
+          <div class="about-sidebar">
+            <div class="section-label-group">
+              <span class="section-meta-index">01 / ABOUT IEEE TEMS</span>
+              <h2 class="section-heading-editorial" id="about-heading">
+                Engineering<br>Meets Leadership.
+              </h2>
+            </div>
+
+            <!-- Typographic Statistic & Interest Action -->
+            <div class="statistic-card" aria-live="polite">
+              <div class="statistic-meta">REAL-TIME CANDIDACY INDEX</div>
+              <div class="statistic-number-display">
+                <span class="statistic-number" id="interestCount">248</span>
+                <span class="statistic-unit">+</span>
+              </div>
+              <p class="statistic-label">Students have expressed interest in joining this chapter.</p>
+              
+              <button type="button" class="interest-btn" id="interestBtn" aria-label="Mark your interest in the IEEE TEMS Chapter">
+                <span>+ I'm Interested</span>
+              </button>
+              <div class="interest-feedback" id="interestFeedback" role="status"></div>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Text Block -->
+          <div class="about-editorial-text">
+            <p class="lead">
+              The IEEE Technology and Engineering Management Society (TEMS) is the premier global professional society dedicated to the advancement of technology management, leadership, innovation, and entrepreneurship.
+            </p>
+            <p class="body-copy">
+              As a student chapter, our mission is to develop well-rounded technical professionals equipped to lead cross-functional teams, manage complex engineering initiatives, and translate breakthrough technologies into viable products and enterprises.
+            </p>
+            <p class="body-copy">
+              We bridge the traditional divide between technical specialization and organizational strategy. Through masterclasses, executive mentorship, leadership case studies, and hands-on governance, members gain the operational confidence required in high-stakes technological environments.
+            </p>
+
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <span class="feature-index">PILLAR 01</span>
+                <div>
+                  <h3 class="feature-title">Dual Competency Development</h3>
+                  <p class="feature-desc">Cultivate technical depth alongside strategic business acumen, preparing you for roles such as Technical Product Manager, Engineering Lead, and Tech Founder.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <span class="feature-index">PILLAR 02</span>
+                <div>
+                  <h3 class="feature-title">Global Body of Knowledge (TEMSBOK)</h3>
+                  <p class="feature-desc">Learn from IEEE TEMS standard practices in technology roadmapping, project governance, innovation ecosystems, and risk assessment.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <span class="feature-index">PILLAR 03</span>
+                <div>
+                  <h3 class="feature-title">Direct Industry Executive Access</h3>
+                  <p class="feature-desc">Engage directly with CTOs, project directors, and engineering heads through structured roundtable discussions and mentoring pods.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WHAT YOU GAIN SECTION -->
+    <section class="section" id="gain" aria-labelledby="gain-heading">
+      <div class="container">
+        <div class="section-label-group">
+          <span class="section-meta-index">02 / CORE VALUE PROPOSITION</span>
+          <h2 class="section-heading-editorial" id="gain-heading">What You Gain</h2>
+        </div>
+
+        <div class="gain-grid">
+          <!-- Card 01 -->
+          <article class="gain-card">
+            <div>
+              <div class="gain-card-header">
+                <span class="gain-number">01</span>
+                <span class="gain-category-tag">DISCIPLINE 01</span>
+                <h3 class="gain-title">Management Skills</h3>
+              </div>
+              <p class="gain-description">
+                Develop foundational and advanced leadership skills, including strategic planning, agile project management, financial modeling, team dynamics, and conflict resolution essential for modern technology leadership.
+              </p>
+            </div>
+            <ul class="gain-deliverables">
+              <li class="gain-deliverable-item">Agile & Scrum Methodologies</li>
+              <li class="gain-deliverable-item">Product & Engineering Roadmapping</li>
+              <li class="gain-deliverable-item">Resource & Risk Allocation</li>
+            </ul>
+          </article>
+
+          <!-- Card 02 -->
+          <article class="gain-card">
+            <div>
+              <div class="gain-card-header">
+                <span class="gain-number">02</span>
+                <span class="gain-category-tag">DISCIPLINE 02</span>
+                <h3 class="gain-title">A Professional Network</h3>
+              </div>
+              <p class="gain-description">
+                Connect directly with industry executives, engineering directors, experienced researchers, and an international network of ambitious student peers across IEEE TEMS worldwide.
+              </p>
+            </div>
+            <ul class="gain-deliverables">
+              <li class="gain-deliverable-item">Executive Fireside Mentorship</li>
+              <li class="gain-deliverable-item">Global Chapter Exchanges</li>
+              <li class="gain-deliverable-item">Alumni Career Guidance Pods</li>
+            </ul>
+          </article>
+
+          <!-- Card 03 -->
+          <article class="gain-card">
+            <div>
+              <div class="gain-card-header">
+                <span class="gain-number">03</span>
+                <span class="gain-category-tag">DISCIPLINE 03</span>
+                <h3 class="gain-title">Career Readiness</h3>
+              </div>
+              <p class="gain-description">
+                Bridge the transition between academic study and high-growth industry careers through executive mentoring sessions, leadership case competitions, management bootcamps, and resume-differentiating chapter leadership roles.
+              </p>
+            </div>
+            <ul class="gain-deliverables">
+              <li class="gain-deliverable-item">Leadership Case Competitions</li>
+              <li class="gain-deliverable-item">Portfolio & Executive Resume Reviews</li>
+              <li class="gain-deliverable-item">Verified Leadership Credentials</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. STUDENT BENEFITS TABLE SECTION -->
+    <section class="section" id="benefits" aria-labelledby="benefits-heading">
+      <div class="container">
+        <div class="section-label-group">
+          <span class="section-meta-index">03 / MEMBERSHIP PRIVILEGES</span>
+          <h2 class="section-heading-editorial" id="benefits-heading">Student Benefits</h2>
+        </div>
+
+        <p class="table-intro">
+          All registered student chapter members are entitled to official IEEE resources, exclusive conference access, publication repositories, and leadership citations.
+        </p>
+
+        <div class="benefits-table-wrapper">
+          <table class="editorial-table" aria-label="IEEE TEMS Student Member Benefits">
+            <thead>
+              <tr>
+                <th scope="col">Domain</th>
+                <th scope="col">Chapter Privilege</th>
+                <th scope="col">Impact & Access Details</th>
+                <th scope="col">Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-category">Publications</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">IEEE Transactions & Leadership BRIEFS</div>
+                  <div class="privilege-spec">Engineering Management Review & Research Archives</div>
+                </td>
+                <td>Complimentary digital access to premier research on engineering governance, strategic roadmaps, and managerial case studies.</td>
+                <td><span class="badge-availability primary">Included</span></td>
+              </tr>
+              <tr>
+                <td class="col-category">Conferences</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">Subsidized Conference Passes</div>
+                  <div class="privilege-spec">IEEE TEMSCON, TEMS-ISMC & Regional Symposia</div>
+                </td>
+                <td>Significant student discounts, competitive travel grants, and dedicated undergraduate/graduate paper presentation tracks.</td>
+                <td><span class="badge-availability">Annual</span></td>
+              </tr>
+              <tr>
+                <td class="col-category">Mentorship</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">Executive Mentorship Pods</div>
+                  <div class="privilege-spec">1-on-1 and Small Group Cohorts</div>
+                </td>
+                <td>Biannual structured 8-week mentoring cycles paired with engineering managers from tier-one technology enterprises.</td>
+                <td><span class="badge-availability primary">Active Members</span></td>
+              </tr>
+              <tr>
+                <td class="col-category">Competitions</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">Global Case & Pitch Challenges</div>
+                  <div class="privilege-spec">TEMS Innovation & Entrepreneurship Competitions</div>
+                </td>
+                <td>Opportunities to pitch technology ventures, present management case analyses, and compete for chapter grants and awards.</td>
+                <td><span class="badge-availability">Biannual</span></td>
+              </tr>
+              <tr>
+                <td class="col-category">Credentials</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">Chapter Leadership Citations</div>
+                  <div class="privilege-spec">Verified Digital Badges & Recommendation Citations</div>
+                </td>
+                <td>Official recognition of project management roles, executive board tenures, and workshop leadership contributions.</td>
+                <td><span class="badge-availability">On Merit</span></td>
+              </tr>
+              <tr>
+                <td class="col-category">Society Status</td>
+                <td class="col-privilege">
+                  <div class="privilege-title">Global IEEE TEMS Directory Membership</div>
+                  <div class="privilege-spec">Official Society Standing & Global Chapter Mobility</div>
+                </td>
+                <td>Lifetime professional network inclusion, IEEE email alias (@ieee.org), and seamless transferability to young professional sections.</td>
+                <td><span class="badge-availability primary">Immediate</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FAQ SECTION -->
+    <section class="section" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="faq-layout">
+          <!-- Left Column -->
+          <div class="faq-sidebar">
+            <div class="section-label-group">
+              <span class="section-meta-index">04 / INQUIRIES & ADMISSIONS</span>
+              <h2 class="section-heading-editorial" id="faq-heading">
+                Frequently Asked<br>Questions
+              </h2>
+            </div>
+            <p class="faq-sidebar-note">
+              Can't find what you're looking for? Reach out directly to our student chapter committee at <a href="mailto:tems-chapter@university.edu" class="footer-email-link">tems-chapter@university.edu</a>.
+            </p>
+          </div>
+
+          <!-- Right Column: Minimalist Accordion -->
+          <div class="accordion-list" role="region" aria-label="FAQ Accordion">
+            <!-- Question 01 -->
+            <div class="accordion-item is-open">
+              <button type="button" class="accordion-trigger" aria-expanded="true" id="faq-trigger-1" aria-controls="faq-content-1">
+                <span class="accordion-question">Who is eligible to join the IEEE TEMS Student Chapter?</span>
+                <span class="accordion-icon" aria-hidden="true">−</span>
+              </button>
+              <div class="accordion-content" id="faq-content-1" role="region" aria-labelledby="faq-trigger-1">
+                <div class="accordion-body">
+                  Any enrolled undergraduate or graduate student is eligible. While primarily designed for students in engineering, computer science, and technology disciplines seeking management and leadership competence, we also warmly welcome business and design students interested in leading tech-focused initiatives.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 02 -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger" aria-expanded="false" id="faq-trigger-2" aria-controls="faq-content-2">
+                <span class="accordion-question">Do I need prior management or business experience to apply?</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content" id="faq-content-2" role="region" aria-labelledby="faq-trigger-2">
+                <div class="accordion-body">
+                  No prior business or management experience is required. The chapter exists specifically to teach engineering students these competencies through structured, practical modules, real case studies, and mentorship from industry practitioners.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 03 -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger" aria-expanded="false" id="faq-trigger-3" aria-controls="faq-content-3">
+                <span class="accordion-question">How does TEMS differ from other IEEE society chapters?</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content" id="faq-content-3" role="region" aria-labelledby="faq-trigger-3">
+                <div class="accordion-body">
+                  Traditional IEEE chapters (such as IEEE Computer Society, Signal Processing, or Power & Energy) concentrate exclusively on specific technical disciplines. IEEE TEMS is unique because it focuses on the essential complementary discipline: how to manage technology, lead multidisciplinary teams, govern budgets, and take innovation to market.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 04 -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger" aria-expanded="false" id="faq-trigger-4" aria-controls="faq-content-4">
+                <span class="accordion-question">What time commitment is expected from chapter members?</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content" id="faq-content-4" role="region" aria-labelledby="faq-trigger-4">
+                <div class="accordion-body">
+                  General active members invest approximately 2 to 4 hours per month attending workshops, keynote sessions, and networking events. Student committee leads and project officers typically dedicate 4 to 6 hours per week managing initiatives and receiving direct mentorship.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 05 -->
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger" aria-expanded="false" id="faq-trigger-5" aria-controls="faq-content-5">
+                <span class="accordion-question">Are leadership positions available for incoming members?</span>
+                <span class="accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="accordion-content" id="faq-content-5" role="region" aria-labelledby="faq-trigger-5">
+                <div class="accordion-body">
+                  Yes. Each academic year, we open elections and appointments for committee positions across Event Operations, Technical Programs, Industry Relations, Communications, and Finance. New members who demonstrate commitment are actively encouraged to step into team lead roles.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. JOIN US APPLICATION FORM SECTION -->
+    <section class="section" id="join" aria-labelledby="join-heading">
+      <div class="container">
+        <div class="join-layout">
+          <!-- Left Column: Guidelines & Checklist -->
+          <div class="join-editorial">
+            <div class="section-label-group">
+              <span class="section-meta-index">05 / CANDIDACY & ENROLLMENT</span>
+              <h2 class="section-heading-editorial" id="join-heading">
+                Join the<br>Chapter
+              </h2>
+            </div>
+            <p>
+              Applications for the 2026 Academic Cohort are currently being accepted. Submit your details below to begin the onboarding process with the IEEE TEMS Student Branch Chapter.
+            </p>
+
+            <ul class="application-checklist">
+              <li class="checklist-item">Applications reviewed within 48 business hours</li>
+              <li class="checklist-item">Direct invitation to Chapter Orientation & Kickoff</li>
+              <li class="checklist-item">Access to Chapter Slack, TEMS Repository, and Mentorship Pools</li>
+            </ul>
+          </div>
+
+          <!-- Right Column: Rectangular Form -->
+          <div class="application-form-card">
+            <form id="temsApplicationForm" novalidate aria-label="IEEE TEMS Membership Application Form">
+              
+              <div class="form-row-2">
+                <!-- Full Name -->
+                <div class="form-group" id="group-fullName">
+                  <label class="form-label" for="fullName">
+                    Full Legal Name <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input type="text" id="fullName" class="form-control" placeholder="e.g. Maya Chen" required autocomplete="name">
+                  <span class="field-error-message" role="alert">Please enter your full name.</span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group" id="group-email">
+                  <label class="form-label" for="email">
+                    Institutional Email <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input type="email" id="email" class="form-control" placeholder="e.g. m.chen@university.edu" required autocomplete="email">
+                  <span class="field-error-message" role="alert">Please provide a valid university email.</span>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <!-- Department / Major -->
+                <div class="form-group" id="group-major">
+                  <label class="form-label" for="major">
+                    Degree Program / Department <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input type="text" id="major" class="form-control" placeholder="e.g. Computer Science & Engineering" required>
+                  <span class="field-error-message" role="alert">Please specify your major or degree.</span>
+                </div>
+
+                <!-- Academic Year -->
+                <div class="form-group" id="group-academicYear">
+                  <label class="form-label" for="academicYear">
+                    Current Academic Year <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <select id="academicYear" class="form-control" required>
+                    <option value="" disabled selected>Select Academic Standing</option>
+                    <option value="First Year / Freshman">First Year / Freshman</option>
+                    <option value="Second Year / Sophomore">Second Year / Sophomore</option>
+                    <option value="Third Year / Junior">Third Year / Junior</option>
+                    <option value="Fourth Year / Senior">Fourth Year / Senior</option>
+                    <option value="Graduate / Master's">Graduate / Master's</option>
+                    <option value="Doctoral / Ph.D. Candidate">Doctoral / Ph.D. Candidate</option>
+                  </select>
+                  <span class="field-error-message" role="alert">Please select your academic year.</span>
+                </div>
+              </div>
+
+              <!-- Primary Focus Area -->
+              <div class="form-group">
+                <label class="form-label">
+                  Primary Area of Interest
+                </label>
+                <div class="radio-options-grid">
+                  <label class="radio-chip-label">
+                    <input type="radio" name="interestDomain" value="Engineering Management & Strategy" checked>
+                    <span>Engineering Management</span>
+                  </label>
+                  <label class="radio-chip-label">
+                    <input type="radio" name="interestDomain" value="Technical Product Management">
+                    <span>Product Management</span>
+                  </label>
+                  <label class="radio-chip-label">
+                    <input type="radio" name="interestDomain" value="Technology Entrepreneurship">
+                    <span>Tech Entrepreneurship</span>
+                  </label>
+                  <label class="radio-chip-label">
+                    <input type="radio" name="interestDomain" value="Agile Operations & Governance">
+                    <span>Agile & Project Governance</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Motivation Statement -->
+              <div class="form-group" id="group-motivation">
+                <label class="form-label" for="motivation">
+                  Statement of Interest & Goals <span class="required" aria-hidden="true">*</span>
+                </label>
+                <textarea id="motivation" class="form-control" placeholder="Briefly describe what you hope to achieve through IEEE TEMS and how it aligns with your technical and managerial career goals." rows="4" required></textarea>
+                <span class="field-error-message" role="alert">Please share your goals (minimum 25 characters).</span>
+              </div>
+
+              <!-- Ethics Agreement -->
+              <div class="form-group" id="group-ethicsAgree">
+                <label class="checkbox-label" for="ethicsAgree">
+                  <input type="checkbox" id="ethicsAgree" required>
+                  <span>I agree to uphold the IEEE Code of Ethics and actively participate in chapter workshops, events, and committee responsibilities.</span>
+                </label>
+                <span class="field-error-message" role="alert">You must agree to the IEEE Code of Ethics to apply.</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-solid-red btn-arrow" id="submitApplicationBtn" style="width: 100%;">
+                Send Application
+              </button>
+            </form>
+
+            <!-- Submission Confirmation Alert -->
+            <div class="form-status-alert" id="formFeedbackAlert" role="region" aria-live="polite">
+              <h3 class="alert-title">Application Successfully Submitted</h3>
+              <p class="alert-details">
+                Your application to the IEEE TEMS Student Branch Chapter has been registered into our admissions queue. An executive officer will review your submission and contact you via your institutional email.
+              </p>
+              <div class="alert-receipt" id="alertReceipt"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. MINIMAL FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Affiliation -->
+        <div class="footer-brand">
+          <div class="footer-logo">IEEE TEMS</div>
+          <p class="footer-desc">
+            Technology and Engineering Management Society — Student Branch Chapter. Bridging engineering depth and leadership acumen since 1951.
+          </p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <div class="footer-column-heading">Navigation</div>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="#about">About TEMS</a></li>
+            <li class="footer-link-item"><a href="#gain">What You Gain</a></li>
+            <li class="footer-link-item"><a href="#benefits">Student Benefits</a></li>
+            <li class="footer-link-item"><a href="#faq">FAQ</a></li>
+            <li class="footer-link-item"><a href="#join">Admissions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact Details -->
+        <div>
+          <div class="footer-column-heading">Contact & Location</div>
+          <address class="footer-address">
+            IEEE TEMS Student Chapter<br>
+            School of Engineering & Applied Sciences<br>
+            Room 402, Technology Hall<br>
+            <a href="mailto:tems-chapter@university.edu" class="footer-email-link">tems-chapter@university.edu</a>
+          </address>
+        </div>
+
+        <!-- Col 4: Society Information -->
+        <div>
+          <div class="footer-column-heading">Affiliation & Society</div>
+          <p class="footer-desc">
+            Affiliated with IEEE Region 10 and the IEEE Technology and Engineering Management Society (TEMS) Global Council.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 IEEE TEMS Student Chapter. Advancing Technology for Humanity.
+        </div>
+        <div>
+          International Typographic Style // Pure Swiss Minimalist Layout
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
